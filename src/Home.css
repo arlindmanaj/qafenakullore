@@ -1,0 +1,134 @@
+.home{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.home__row{
+    background-color: white;
+    
+    display: flex;
+    z-index: 1;
+    margin-left: 0;
+    margin-right: 0;
+}
+.home__container{
+   position: relative;
+}
+.home__hero{
+    background-color: black;
+}
+.titulli__hero{
+    font-size: 80px;
+    position: absolute;
+    top: 200px;
+    margin-left: 155px;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 100;
+}
+.teksti__hero{
+    font-size: 15px;
+    position: absolute;
+    top: 410px;
+    margin-left: 160px;    
+}
+.button_hero1{
+    position: absolute;
+    top: 550px;
+}
+.hero__img{
+    
+    width: 80%;
+    z-index: -1;
+    margin-bottom: 150px;
+    margin-left: 150px;
+}
+.support__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.ikonat__under{
+    margin-bottom: 15px;
+    font-size: 100px;
+}
+
+.under__hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    
+}
+.titujt__hero{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.teksti__ikona{
+    font-size: 15px;
+    font-style: italic;
+    border-bottom: 1px solid gray;
+}
+
+.options{
+    display: flex;
+   
+    margin-top: 20px;
+}
+a{
+    cursor: pointer;
+}
+.options__{
+    display: flex;
+    padding-left: -50px;
+}
+.image__options{
+    width: 100%;
+}
+.dyshi{
+    display: flex;
+    justify-content: flex-end;
+}
+.bestsellers__{
+    background-color: white;
+    color: gray;
+    
+    padding:0 5px;
+}
+.teksti__shishe{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+
+}
+.bestsellers{
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+.bestsellers__option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+    border-bottom: 1px solid gray;
+    padding-right: 50px;
+}
+.featured{
+    margin: 10px 10px;
+    font-weight: 300;
+}
+.featured:active{
+    color: black;
+    font-weight: 400;
+    border-bottom: 1px solid black;
+    
+}

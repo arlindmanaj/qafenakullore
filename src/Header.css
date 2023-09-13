@@ -1,24 +1,56 @@
 .header{
+    color: white;
     height: 80px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: black;
     position: sticky;
     top: 0;
     z-index: 100;
-}
-.header{
-   
     border-bottom: 1px solid grey;
+}
+
+.header__search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+}
+.header__searchInput{
+    
+}
+.header__searchIcon, .header__option__right{
+    padding: 5px;
+    height: 22px;
+    display: flex;
+    align-items: end;
+    margin: 0px 5px;
 }
 .header__logo{
     background-color: black;
     width: 125px;
     object-fit: contain;
     margin: 0 50px;
-    
+}
 
+.header__nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .header__option{
-    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 15px;
+
+}
+.djatht{
+    display: flex;
+    align-items: end;
+    margin-right: 50px;
+    padding: 0px 15px;
+    
+
 }
