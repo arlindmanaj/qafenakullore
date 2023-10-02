@@ -12,6 +12,7 @@
     min-width: 100px;
     background-color: white;
     z-index: 1;
+    flex: 1;
 }
 .product > a > img{
     max-height: 300px;
@@ -32,7 +33,7 @@
     
 }
 .cart__icon{
-    font-size: 5px;
+    font-size: 13px;
     color: black;
     
 }

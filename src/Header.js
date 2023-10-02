@@ -18,20 +18,20 @@ function Header() {
       <div className='header__nav'>
         <div className='header__option'>
           {/* hOM E*/}
-            <span className='header__optionLineOne'>Home</span>
+            <span className='header__optionLineOne'>Ballina</span>
 
         </div>
         <div className='header__option'>
           {/* PRODUCTS*/}
-          <span className='header__optionLineOne'>Products</span>
+          <span className='header__optionLineOne'>Produktet</span>
         </div>
         <div className='header__option'>
           {/* CATEGORIES*/}
-          <span className='header__optionLineOne'>Categories</span>
+          <span className='header__optionLineOne'>Kategorite</span>
         </div>
         <div className='header__option'>
           {/*ABOUT US */}
-          <span className='header__optionLineOne'>About US</span>
+          <span className='header__optionLineOne'>Rreth Nesh</span>
         </div>
        
         

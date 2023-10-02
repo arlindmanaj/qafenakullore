@@ -1,15 +1,15 @@
 import React from 'react'
 import './Product.css'
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
-function Product() {
+function Product( {id, title, image, price, description} ) {
   return (
     
     <div className='product'>
-        <a><img src='Foto-03.webp'></img></a>
+        <a><img src={image}></img></a>
             <div className='product__info'>
-                <p className='description'>Komplet</p>
-                <h4 className='titulli__produktit'>Varse veneciane</h4>
-                <strong className='qmimi'>69.99$</strong>
+                <p className='description'>{description}</p>
+                <h4 className='titulli__produktit'> {title}</h4>
+                <strong className='qmimi'>{price}</strong>
                 <br></br><button><AddShoppingCartIcon className='cart__icon'></AddShoppingCartIcon>Shto Ne Shporte</button>
             </div>
 

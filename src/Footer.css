@@ -1,0 +1,67 @@
+.diqka{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.logo__footer{
+    overflow-x: hidden;
+    width: 10%;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+
+    font-size: 13px;
+    font-weight: 100;
+    margin: 100px 50px;
+    
+}
+.regjistrohu{
+    display: flex;
+    
+}
+ul{
+    list-style: none;
+}
+.newsletter__footer{
+    width: 40%;
+}
+.newsletter__footer > p{
+    margin-bottom: 25px;
+
+}
+.paragrafi2 {
+    color: gray;
+
+}
+.paragrafi5{
+    margin-top: 10px;
+}
+.regjistrohu > input{
+    margin-top: 15px;
+    width: 60%;
+    color: white;
+    background-color: rgb(63, 59, 59);
+    height: 25px;
+    border: none;
+    padding-left: 10px;
+}
+.regjistrohu > button{
+    border-radius: 0;
+    margin-top: 13px;
+    margin-bottom: -2px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.aboutus__footer{
+    display: flex;
+    
+    align-items: center;
+}
+.li__footer{
+    margin: 10px 0;
+}
